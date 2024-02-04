@@ -1,0 +1,47 @@
+header{
+    color: blue;
+    font-weight: bold;
+}
+.inner{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-inline: auto;
+}
+.logo{
+    font-size: large;
+    margin: 20px;
+}
+ul{
+    display: flex;
+    list-style: none;
+    margin: 20px;
+}
+li{
+    display: block;
+    margin: 20px;
+}
+.parent{
+    position: relative;
+}
+.box{
+    position: absolute;
+    width: 1100px;
+    height: 130px;
+    background: blue;
+    top: 85%;
+    z-index: 0;
+}
+.imgbox{
+    display: flex;
+    justify-content: flex-end;
+}
+img{
+    width: 50%;
+    z-index: 10;
+}
+.txt{
+    position: absolute;
+    font-size: 50px;
+    top: 70%;
+}
